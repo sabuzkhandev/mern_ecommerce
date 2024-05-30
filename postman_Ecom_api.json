@@ -1,0 +1,470 @@
+{
+	"info": {
+		"_postman_id": "0a883543-7c5f-42dc-8f1a-45f2005f285b",
+		"name": "Ecommerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32815098",
+		"_collection_link": "https://bold-spaceship-232423.postman.co/workspace/Ecommerce~6f8b562c-b76d-490b-9b77-56c6eb0004a4/collection/32815098-0a883543-7c5f-42dc-8f1a-45f2005f285b?action=share&source=collection_link&creator=32815098"
+	},
+	"item": [
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "ProductBrandList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductBrandList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductBrandList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductCategoryList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductCategoryList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductCategoryList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductSliderList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductSliderList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductSliderList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListByBrand",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductListByBrand/64f8751a502e1b80556da142",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductListByBrand",
+								"64f8751a502e1b80556da142"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListByCategory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductListByCategory/64f875ed502e1b80556da14d",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductListByCategory",
+								"64f875ed502e1b80556da14d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListBySimilar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductListBySimilar/64f875ed502e1b80556da14d",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductListBySimilar",
+								"64f875ed502e1b80556da14d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListByKeyword",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductListByKeyword/Apple",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductListByKeyword",
+								"Apple"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListByRemark",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductListByRemark/new",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductListByRemark",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductDetails/654dbf25abda0c85053c9902",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductDetails",
+								"654dbf25abda0c85053c9902"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductReviewList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ProductReviewList/64f8ba608fcc62fe3de37a2e",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ProductReviewList",
+								"64f8ba608fcc62fe3de37a2e"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "UserOTP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/UserOTP/info.sabuzkhan@gmail.com",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"UserOTP",
+								"info.sabuzkhan@gmail.com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "VerifyLogin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/VerifyLogin/info.sabuzkhan@gmail.com/592475",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"VerifyLogin",
+								"info.sabuzkhan@gmail.com",
+								"592475"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UserLogout",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/UserLogout",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"UserLogout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateProfile",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cus_add\": \"Dhaka\",\r\n    \"cus_city\": \"Dhaka\",\r\n    \"cus_country\": \"Bangladesh\",\r\n    \"cus_fax\": \"test@fax.com\",\r\n    \"cus_name\": \"Rakib\",\r\n    \"cus_phone\": \"0195600000\",\r\n    \"cus_postcode\": \"2345\",\r\n    \"cus_state\": \"Dhaka\",\r\n    \"ship_add\": \"Dhaka\",\r\n    \"ship_city\": \"Dhaka\",\r\n    \"ship_country\": \"Bangladesh\",\r\n    \"ship_name\": \"Pathao\",\r\n    \"ship_phone\": \"01984000000\",\r\n    \"ship_postcode\": \"2398\",\r\n    \"ship_state\": \"Dhaka\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Base}}/CreateProfile",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"CreateProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateProfile",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/UpdateProfile",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"UpdateProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ReadProfile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/ReadProfile",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"ReadProfile"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Wish",
+			"item": [
+				{
+					"name": "WishList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/WishList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"WishList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateWishList",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/CreateWishList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"CreateWishList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RemoveWishList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/RemoveWishList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"RemoveWishList"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cart",
+			"item": [
+				{
+					"name": "SaveCartList",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/SaveCartList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"SaveCartList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateCartList",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/UpdateCartList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"UpdateCartList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RemoveCartList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/RemoveCartList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"RemoveCartList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CartList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Base}}/CartList",
+							"host": [
+								"{{Base}}"
+							],
+							"path": [
+								"CartList"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Base",
+			"value": "http://localhost:5000/api/v1",
+			"type": "string"
+		}
+	]
+}
